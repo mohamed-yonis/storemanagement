@@ -1,0 +1,77 @@
+/* SalesManagement.css */
+
+/* Container for Sales Management Page */
+.sales-management-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.sale-form {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sale-form select, .sale-form input {
+    width: 100%;
+    max-width: 200px;
+    padding: 0.75rem;
+    margin-right: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    transition: border-color 0.2s ease;
+}
+
+.sale-form select:focus, .sale-form input:focus {
+    border-color: #3b82f6;
+    outline: none;
+}
+
+.sale-form button {
+    padding: 0.75rem 1.5rem;
+    background-color: #2563eb;
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.sale-form button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Table Styling */
+.sales-table-container {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+}
+
+.sales-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sales-table th, .sales-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.sales-table th {
+    background-color: #f3f4f6;
+    color: #374151;
+    font-weight: 600;
+}
+
+.sales-table tr:hover {
+    background-color: #f3f4f6;
+}
